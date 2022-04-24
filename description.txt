@@ -1,0 +1,24 @@
+Logo
+
+logo is designed with canva. Logo contain fork and spoon that
+indicates many symbols of restaurant notation like delicius food,
+waiting for food etc. for simple looking logo only two colors involved
+
+website
+
+website contain three section 
+header 
+imageslider
+footer 
+
+in header navigation bar with restaurant logo inserted
+below navigation bar two option showed for booking table and order food at home
+and goal of restaurant describe
+
+imageslider have all time special dishes of fragrence of south 
+so people can order and enjoyed special dishes.
+
+footer section have address of the restaurant in written and 
+location in google map so customer can tap and locate the restaurant
+there is timing of restaurant when it is opened
+we provide customer care number for customer for any kind support.
