@@ -13,33 +13,39 @@
     justify-content: space-between;
     align-items: center;
 }
-
-@media screen and (max-width: 640px){
-    .nav-bar a:not(:first-child)
-    {display: none;}
-
-    .logo{
-        float: right;
-        display: block;
-    }
+.menu{
+    cursor: pointer;
+    display: none;
+    padding: 10px;
+    color: white;
+    margin-right: 20px;
 }
-@media screen and (max-width: 640px){
-    .topnav.responsive
-    {
-        position: relative;
+.menu:hover{
+    background-color: white;
+    color: black;
+}
+@media only screen and (max-width: 700px) {
+    .menu{
+        display: inline;
     }
-    .topnav.responsive a.logo{
-        position: absolute;
-        right: 0;
+    .nav-bar nav{
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
         top: 0;
+        right: 0;
+        background-color: rgba(17, 17, 17, 0.9);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
     }
-    .topnav.responsive a{
-        float: none;
+    .nav-bar nav ul li a{
+        padding: 8px 8px 8px 32px;
         display: block;
-        text-align: left;
     }
 }
-
 .nav-bar a img{
     opacity: 70%;
     border-radius: 60px 0;
@@ -83,6 +89,7 @@
     justify-content: center;
 }
 .but button{
+    border-radius: 50px;
     border-width: 2px;
     border-color: white;
     height: 50px;
@@ -91,7 +98,11 @@
     color: white;
     background-color: transparent;
 }
-
+.but button:hover , button:focus{
+    background-color: rgba(242, 242, 242, 0.8);
+    color: black;
+    border-color: black;
+}
 .header h1{
     margin: 60px 0 0 0;
     font-family:cursive;
